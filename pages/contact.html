@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <title>Contact | AURORA</title>
+</head>
+
+<body class="contact">
+
+    <img id="bg-contact" src="../css/img/Laponie.jpg" alt="">
+    <!-- Header and Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">AURORA</a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="../pages/services.html">Services</a></li>
+                    <li><a href="../pages/destinations.html">Destinations</a></li>
+                    <li><a href="#" class="active">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu-hamburger">
+                <svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="42px" height="42px">
+                    <path
+                        d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z" />
+                </svg>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-container-contact">
+            <h2>Restons en contact</h2>
+
+            <form action="" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nom et Prénom:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Adresse email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="cta-button">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer-contact">
+        <div>
+            <p>2024 Aurora - tous droits réservés</p>
+        </div>
+        <div>
+            <img src="../css/img/instagram.png" alt="logo instagram">
+            <img src="../css/img/twitter.png" alt="logo twitter">
+            <img src="../css/img/facebook.png" alt="logo facebook">
+        </div>
+    </footer>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
