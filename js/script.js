@@ -47,7 +47,7 @@ window.addEventListener('scroll', function () {
 }, true);
 
 window.addEventListener('scroll', () => {
-    if (window.scrollY > 1700) {
+    if (window.scrollY > 1690) {
         testimonialList.classList.add('show');
     }
 });
